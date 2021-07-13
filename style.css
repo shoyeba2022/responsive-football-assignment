@@ -1,0 +1,57 @@
+body{
+    font-family: 'Rock Salt', cursive;
+}
+.container{
+    height: 700px;
+    background-color:  #2D25A0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+
+
+}
+.title{
+   font-size: 50px; 
+   color: aliceblue;
+   font-weight: 700;
+ 
+}
+.title a{
+     text-decoration: none;
+     background-color: salmon;
+     color: white;
+     padding: 5px;
+     border-radius: 7px;
+     font-size: 20px;
+}
+.banner img{
+    width: 556px;
+    height: 438px;
+}
+.fa-arrow-right{
+    color: seashell;
+}
+
+/* blog styles */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 30px;
+   grid-row-gap: 30px;
+   margin: 40px 100px;
+}
+.player{
+    width: 330px;
+    height: 550px;
+    border: 1px solid blue;
+    align-items: center;
+    padding: 15px;
+
+
+}
+.player .thumbnail img{
+    width: 95%;
+    height: 256px;
+}
