@@ -7,10 +7,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    
-
-
 }
 .title{
    font-size: 50px; 
@@ -26,6 +22,14 @@ body{
      border-radius: 7px;
      font-size: 20px;
 }
+.container:hover .banner{
+    transform: translate(100px);
+}
+.banner{
+    position: relative;
+    transition: transform 7s ease;
+}
+
 .banner img{
     width: 556px;
     height: 438px;
@@ -54,4 +58,25 @@ body{
 .player .thumbnail img{
     width: 95%;
     height: 256px;
+}
+/* footer section  */
+footer{
+    padding-top: 100px;
+    background-color: white;
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.web-banner img{
+    width: 483px;
+    height: 120px;
+}
+.f-detail{
+    text-align: center;
+
+}
+.black{
+    color: black;
+
 }
